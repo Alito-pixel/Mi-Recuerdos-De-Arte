@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Maqueta Web</title>
+
+    <style>
+        /* CONFIGURACIÓN GENERAL */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ddd;
+            font-family: Arial, sans-serif;
+        }
+
+        /* CONTENEDOR */
+        .contenedor {
+            width: 80%;
+            margin: auto;
+            background-color: #6aa84f;
+            padding: 20px;
+            border: 5px solid teal;
+        }
+
+        /* HEADER */
+        header {
+            background-color: orange;
+            padding: 20px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .texto-header {
+            color: white;
+            font-weight: bold;
+        }
+
+        /* IMAGEN */
+        header img {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            border: 3px solid blue;
+        }
+
+        /* NAV */
+        nav {
+            background-color: #3c5a99;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        /* CONTENIDO */
+        .contenido {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* SECTION */
+        section {
+            background-color: orange;
+            width: 70%;
+            padding: 40px;
+        }
+
+        /* ASIDE */
+        aside {
+            background-color: yellow;
+            width: 30%;
+            padding: 40px;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #3c5a99;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <header>
+        <div class="texto-header">Esto es una etiqueta &lt;header&gt;</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUCUXiAQZpgqVI-0uJl3_iBwK63de7voFAw&s" alt="Imagen del autor" width="100"" alt="imagen">
+    </header>
+
+    <nav>
+        Esto es una etiqueta nav
+    </nav>
+
+    <div class="contenido">
+
+        <section>
+            Esto es una etiqueta &lt;section&gt;
+        </section>
+
+        <aside>
+            Esto es una etiqueta &lt;aside&gt;
+        </aside>
+
+    </div>
+
+    <footer>
+        Esto es una etiqueta &lt;footer&gt;
+    </footer>
+
+</div>
+
+</body>
+</html>
