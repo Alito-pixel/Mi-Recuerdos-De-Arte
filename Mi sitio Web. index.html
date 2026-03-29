@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis recuerdos de Artes</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* GENERAL */
+        body {
+            background-color: rgb(179, 234, 242);
+            font-family: Helvetica, sans-serif;
+        }
+
+        h1 {color: rgb(48, 17, 171);}
+        h2 {color: rgb(0, 153, 230);}
+
+        p {color: rgb(8, 8, 0);}
+
+        .parrafitos {font-size: 20px;}
+
+        /* NAV */
+        nav {
+            background-color: rgb(0, 89, 255);
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        /* MODELO DE CAJA */
+        section {
+            background-color: rgb(220, 240, 255);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* POSITION */
+        aside {
+            position: fixed;
+            right: 10px;
+            top: 120px;
+            width: 200px;
+            background-color: white;
+            border: 2px solid blue;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: rgb(0, 89, 255);
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            background-color: white;
+            padding: 15px;
+            border: 3px solid blue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header class="text-center">
+    <h1>Mis Recuerdos de Artes</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#sem1">Semana 1</a></li>
+            <li><a href="#sem2">Semana 2</a></li>
+            <li><a href="#sem3">Semana 3</a></li>
+            <li><a href="#sem4">Semana 4</a></li>
+            <li><a href="#sem5">Semana 5</a></li>
+            <li><a href="#sem6">Semana 6</a></li>
+            <li><a href="#sem7">Semana 7</a></li>
+            <li><a href="#sem8">Semana 8</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+
+    <article>
+        <h2>¿De qué trata este sitio web?</h2>
+        <p class="parrafitos">
+            Este sitio web es un álbum digital creado para guardar y organizar mis actividades de Artes.
+        </p>
+        <p class="parrafitos">
+            La idea es tener un espacio donde pueda conservar las actividades de forma fácil y organizada.
+        </p>
+    </article>
+
+    <article>
+        <h2>Actividades Semanales</h2>
+        <ul>
+            <li><a href="#sem1">Primera Semana</a></li>
+            <li><a href="#sem2">Segunda Semana</a></li>
+            <li><a href="#sem3">Tercera Semana</a></li>
+            <li><a href="#sem4">Cuarta Semana</a></li>
+            <li><a href="#sem5">Quinta Semana</a></li>
+            <li><a href="#sem6">Sexta Semana</a></li>
+            <li><a href="#sem7">Séptima Semana</a></li>
+            <li><a href="#sem8">Última Semana</a></li>
+        </ul>
+    </article>
+
+</section>
+
+<!-- TABLA CON BOOTSTRAP -->
+<div class="container">
+<table class="table table-bordered table-striped text-center">
+    <thead class="table-primary">
+        <tr>
+            <th>Semana</th>
+            <th>Tema</th>
+            <th>Opinión</th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+                    <th > Numero Semana </th>
+                    <th>Tema</th>
+                    <th>Opinion</th>
+					<th>Foto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id= "sem1">Semana 1</td>
+                    <td> <a target= "_blank" href="https://concepto.de/fotografia/">Fotografia<a/> </td>
+                    <td>Gran aporte para saber lso angulos de una foto</td>
+					<td><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGfGvu0hr-26SeMrD3THxnOxS_uSCgewKqs_UR-UxO8wr5hcPTICXRT7yW0qVJAgeY1iFv8L73APD7KRTTOvpUUQjeKp7NGBVS3TLh-hbu5yq_MlQG5iNpgrvYSEwyTSgDdMkafRQOC4p4NYAZcxp7cAQ7CH7iTqc-xrZamF23lRVNGKLyNR0GGa8RfUb/s320/WhatsApp%20Image%202026-02-17%20at%209.19.47%20AM.jpeg" width="100"></td>
+                </tr>
+                <tr>
+                    <td id= "sem2">Semana 2</td>
+                    <td> <a target= "_blank" href="https://www.dzoom.org.es/regla-de-los-tercios/"> Ley de Tercios <a/> </td>
+                    <td>Ayuda mucho saber los puntos aureos de una foto</td>
+					<td><img src="https://blogger.googleusercontent.com/img/a/AVvXsEiX7DaaB7JphThm3BEtxVgHHvpJZovh_MKCOjs5yOBdjfczNeXYdUIs37QbttSmJ0Bkig0tuIm7g4piOdy_arwaVLltCYgwnNH19JMtDBnzQ_OKovzHKaVuImhfGPOIOQzixK0G45KKa0Tx60r1YPx0f2pAWAJzacxJ2dpPU4rYya1zcNoTbFKycAINMYvY=w389-h286" width="100"></td>
+                </tr>
+                <tr>
+                    <td id="sem3">Semana 3</td>
+                    <td> <a target= "_blank" href="https://es.wikipedia.org/wiki/Iluminaci%C3%B3n_en_fotograf%C3%ADa" > Iluninacion <a/> </td>
+                    <td>Se logran buenos constrates garcias a la iluninacion </td>
+					<td><img src="https://blogger.googleusercontent.com/img/a/AVvXsEjKO4iBaglB_uFHwSAPkxWZ74ZmUmKgGkABSnLsZs4-XCNwN3ok-gzPEm0N7Ypcq0AbIxWf8UPOTbAzwoM5odRSd73FY5hmt5IQ2lc4w_ARq81K78icB2NJ-rlQ4KXc0V2YIdZYEP_j6s7AUcIyrNNeY7ABt4L_0Z5hYRGBzDhho8oyBentofkNb-4B0XFc" width="100"></td>
+                </tr>
+				<tr>
+                    <td id= "sem4">Semana 4</td>
+                    <td> <a target= "_blank" href="https://oscarenfotos.com/2019/03/23/el-encuadre-fotografico/" > Orientacion de Encuadre <a/> </td>
+                    <td>Ayuda a organizar mejor los elementos y mejorar la composición de la foto.</td>
+					<td><img src="https://blogger.googleusercontent.com/img/a/AVvXsEghGWDOtdRT-_1X9biu6xdVTFA0c3I0p9_tHcw89QKDNzUNomVF55hy_-Lfl2cp9odKEneWJyPQ9K99lmerWpEMgwlmukbnt7c0Lp7J_x1whWJ61ZwMmcYu32mvDt0gW_MxnkOS_vszc2MfyjxgyLnp8tkFBE4G2APV9HBZfps35Z76rQyATDHs3u3YAuLu" width="100"></td>
+                </tr>
+                <tr>
+                    <td id= "sem5">Semana 5</td>
+                    <td> <a target= "_blank" href="https://pecadosdelarte.com/noticia/503/expertos/apropiacionismo-fotografico-.html" > Apopracion de la Fotografia <a/> </td>
+                    <td>Permite reinterpretar imágenes y darles un nuevo significado creativo.</td>
+					<td><img src="https://blogger.googleusercontent.com/img/a/AVvXsEh62gE4hiJKgrcG4n_j40dFW3vOQqkq1Ujuv-rMwE6ZHd4-w2OCcR6qWTEZOUBjOud3vUrH5VF-wY1JlzlDkcpzkxCkoVc88m9GLgL8NwSlPScmW_YK0jJUReoX-Yljk6EomFHq_hIb7wDYBgoS6kPRSwODLMZSIfzTFhnK7MiU8QKC39audurx9evZhCYf=w248-h316" width="100"></td>
+                </tr>
+                <tr>
+                    <td id="sem6">Semana 6</td>
+                    <td> <a target= "_blank" href="https://tallerdefotografiaonline.com/nueva/wp-content/uploads/2021/01/FOTOGRAFIA-INTERVENIDA.pdf" > Intervencion Fotografica <a/> </td>
+                    <td>Permite modificar las imágenes para expresar ideas más artísticas y originales. </td>
+					<td><img src="https://blogger.googleusercontent.com/img/a/AVvXsEiJdeCCQDuDiEbSaNs3RSDA7AyNTuL1VywTl1Evhtyza94NhVaoibI3CENxhv2qdexlgfQWIjlvMLkOPv_wo9xEAI_B8eFW-fJjEUYsHPdeivjv3HZu0Twdw86JHHgapoJFA8fSrTzIsYNBlMEJuU8zkE_GFjKg5C8W0v9z0QlJmxupnbZ-shgdbE8youYN" width="100"></td>
+                </tr>
+				 <tr>
+                    <td id="sem7">Semana 7</td>
+                    <td>  Proyecto Final </td>
+                    <td>. </td>
+					<td>.</td>
+                </tr>
+				 <tr>
+                    <td id="sem8">Semana 8 </td>
+                    <td> Atoevaluaciones </td>
+                    <td> Solo se realizo las Atoevaluaciones</td>
+					<td>.</td>
+                </tr>
+            </tbody>
+        
+</table>
+</div>
+
+<aside>
+    <h3>Autor</h3>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUCUXiAQZpgqVI-0uJl3_iBwK63de7voFAw&s" alt="Imagen del autor" width="100">
+    <p>Creado por Alejito</p>
+</aside>
+
+<footer>
+    <p>Nombre: Alejito Armadito</p>
+    <p>Correo: armatidoalejito@gmail.com</p>
+</footer>
+
+</body>
+</html>
